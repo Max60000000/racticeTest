@@ -2,13 +2,10 @@
 import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
- 
   return (
-    
     <header className="shadow sticky z-50 top-0">
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
-      <iframe src="https://www.nicasiacapital.com/
-          " title="Advertisement" width="800" height="250" frameborder="0" scrolling="no"></iframe>
+      
 
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <NavLink to="/" className="flex items-center">
@@ -32,7 +29,7 @@ export default function Header() {
               Get started
             </Link>
           </div>
-         
+
           <div
             className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
             id="mobile-menu-2"
@@ -89,9 +86,7 @@ export default function Header() {
                 </NavLink>
               </li>
               <div className="flex flex-col items-center p-4 bg-gray-100 rounded-md shadow-md">
-      { }
-   
-                
+                {}
               </div>
             </ul>
           </div>
